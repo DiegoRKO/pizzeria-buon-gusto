@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset ="UTF-8">
+     <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h1>Pizzeria Buon Gosto</h1>
+    <p>Nossos Contatos</p>
+
+    <a href="index.html">Home</a>
+    <a href="cardapio.html">Cardápio</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="sobre.html">Sobre Nós</a>
+    <a href="contato.html">Contato / Reservas</a>
+    
+
+<form action="https://formsubmit.co/dmorettomecca@gmail.com" method="POST" id="formulario">
+
+    <input type="hidden" name="_subject" value="Novo contato do site">
+    <input type="hidden" name="_captcha" value="false">
+
+    <div class="campo">
+        <label for="nome">Insira o seu nome</label>
+        <input type="text" name="nome" placeholder="Nome" required id="nome">
+    </div>
+
+    <div class="campo">
+        <label for="email">Digite seu melhor e-mail para contato</label>
+        <input type="email" name="email" placeholder="E-mail" required id="email">
+    </div>
+
+    <div class="campo">
+        <label for="mensagem">Insira aqui a sua mensagem</label>
+        <textarea name="mensagem" placeholder="Mensagem" id="mensagem"></textarea>
+    </div>
+
+    <button type="submit">Enviar</button>
+
+</form>
+
+    
+    
+</body>
+</html>
